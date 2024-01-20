@@ -1,0 +1,5 @@
+/data/
+/green_taxi_postgres_data/
+*.lock.hcl
+.terraform
+*.tfstate
