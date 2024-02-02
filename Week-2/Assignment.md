@@ -43,7 +43,7 @@ Upon filtering the dataset where the passenger count is greater than 0 _and_ the
 
 * 544,897 rows
 * 266,855 rows
-* 139,370 rows
+* 139,370 rows <-- this
 * 266,856 rows
 
 ## Question 3. Data Transformation
@@ -52,7 +52,7 @@ Which of the following creates a new column `lpep_pickup_date` by converting `lp
 
 * `data = data['lpep_pickup_datetime'].date`
 * `data('lpep_pickup_date') = data['lpep_pickup_datetime'].date`
-* `data['lpep_pickup_date'] = data['lpep_pickup_datetime'].dt.date`
+* `data['lpep_pickup_date'] = data['lpep_pickup_datetime'].dt.date` <-- this
 * `data['lpep_pickup_date'] = data['lpep_pickup_datetime'].dt().date()`
 
 ## Question 4. Data Transformation
@@ -60,7 +60,7 @@ Which of the following creates a new column `lpep_pickup_date` by converting `lp
 What are the existing values of `VendorID` in the dataset?
 
 * 1, 2, or 3
-* 1 or 2
+* 1 or 2 <-- this
 * 1, 2, 3, 4
 * 1
 
@@ -71,13 +71,13 @@ How many columns need to be renamed to snake case?
 * 3
 * 6
 * 2
-* 4
+* 4 <-- this
 
 ## Question 6. Data Exporting
 
 Once exported, how many partitions (folders) are present in Google Cloud?
 
-* 96
+* 96 <-- this
 * 56
 * 67
 * 108

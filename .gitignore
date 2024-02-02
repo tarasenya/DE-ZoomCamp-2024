@@ -3,5 +3,5 @@
 .cache/
 *.db
 .ssh-tunnel/
-./Week-2/.env
-io_config.yaml
+Week-2/.env
+*/io_config.yaml
