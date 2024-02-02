@@ -4,3 +4,4 @@
 *.db
 .ssh-tunnel/
 .env
+io_config.yaml
