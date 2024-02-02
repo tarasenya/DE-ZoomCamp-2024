@@ -3,3 +3,4 @@
 .cache/
 *.db
 .ssh-tunnel/
+.env
