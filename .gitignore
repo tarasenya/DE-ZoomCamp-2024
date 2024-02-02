@@ -8,3 +8,9 @@ Week-2/.env
 Week-2/magic-zoomcamp/data_exporters/export_titanic_clean.py
 Week-2/magic-zoomcamp/transformers/fill_in_missing_values.py
 Week-2/magic-zoomcamp/.ssh_tunnel/aws_emr.json
+charts/
+custom/
+dbt/
+extensions/
+interactions/
+scratchpads/
