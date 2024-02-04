@@ -1,6 +1,7 @@
 .operation_history/
 .variables/
 .cache/
+.env
 *.db
 .ssh-tunnel/
 Week-2/.env
