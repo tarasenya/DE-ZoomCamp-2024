@@ -27,8 +27,8 @@ What is the estimated amount of data that will be read when this query is execut
 - 18.82 MB for the External Table and 47.60 MB for the Materialized Table
 - 0 MB for the External Table and 0MB for the Materialized Table
 - 2.14 MB for the External Table and 0MB for the Materialized Table
-![Materialized table]('/snapshots/distinct_materialized_table.png')
-![External table]('/snapshots/external_table.png')
+![Materialized table]('snapshots/distinct_materialized_table.png')
+![External table]('snapshots/external_table.png')
 
 ## Question 3:
 How many records have a fare_amount of 0?
@@ -57,8 +57,8 @@ Choose the answer which most closely matches.</br>
 - 5.63 MB for non-partitioned table and 0 MB for the partitioned table
 - 10.31 MB for non-partitioned table and 10.31 MB for the partitioned table
 
-![Non partitioned table]('/snapshots/non_partitioned_distinct.png')
-![Partitioned/Clustered]('/snapshots/partitioned-clustered.png')
+![Non partitioned table]('snapshots/non_partitioned_distinct.png')
+![Partitioned/Clustered]('snapshots/partitioned-clustered.png')
 
 ## Question 6: 
 Where is the data stored in the External Table you created?
