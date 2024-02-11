@@ -6,6 +6,11 @@ name = "pypi"
 [packages]
 pandas = "*"
 sqlalchemy = "*"
+requests = "*"
+pyarrow = "*"
+fastparquet = "*"
+google = "*"
+google-cloud-storage='*'
 
 [dev-packages]
 ipykernel = "*"
