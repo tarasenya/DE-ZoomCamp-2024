@@ -8,7 +8,7 @@ with tripdata as
 (
   select *,
   from {{ source('week_4_hw','external_fhv') }}
-  where {{ dbt.date_trunc("year", "pickup_datetime") }}==2019
+  where cast(dropOff_datetime as timestamp) >= {{ dbt_date.round_timestamp("'2019-01-01 00:00:01'")}}
 )
 select
     -- identifiers
