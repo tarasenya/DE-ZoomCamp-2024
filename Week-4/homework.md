@@ -24,27 +24,18 @@ instead. If you have access to GCP, you don't need to do it for local Postgres -
 You'll need to have completed the ["Build the first dbt models"](https://www.youtube.com/watch?v=UVI30Vxzd6c) video. 
 - It's the same as running *dbt build*
 - It applies a _limit 100_ to all of our models
-- It applies a _limit 100_ only to our staging models
+- It applies a _limit 100_ only to our staging models <--- this
 - Nothing
 
-### Question 2: 
 
-**What is the distribution between service type filtering by year 2020 data only, as done in the videos?**
-You will need to complete "Visualising the data" videos, either using [google data studio](https://www.youtube.com/watch?v=39nLTs74A3E) or [metabase](https://www.youtube.com/watch?v=BnLkrA7a6gM). 
-
-- 
-- 
-- 
-- 
-
-### Question 3: 
+### Question 2:  
 
 **What is the code that our CI job will run?**  
 
 - The code that has been merged into the main branch
 - The code that is behind the object on the dbt_cloud_pr_ schema
 - The code from any development branch that has been opened based on main
-- The code from a development branch requesting a merge to main
+- The code from a development branch requesting a merge to main <-- this
 
 
 ### Question 4: 
