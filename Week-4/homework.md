@@ -49,7 +49,7 @@ Similar to what we've done in fact_trips, keep only records with known pickup an
 Run the dbt model without limits (is_test_run: false).
 
 - 12998722
-- 22998722
+- 22998722 <-- this
 - 32998722
 - 42998722
 
@@ -59,7 +59,7 @@ Run the dbt model without limits (is_test_run: false).
 
 Create a dashboard with some tiles that you find interesting to explore the data. One tile should show the amount of trips per month, as done in the videos for fact_trips, including the fact_fhv_trips data.
 
-- FHV
+- FHV <-- this
 - Green
 - Yellow
 - FHV and Green
