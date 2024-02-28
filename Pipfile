@@ -11,6 +11,7 @@ pyarrow = "*"
 fastparquet = "*"
 google = "*"
 google-cloud-storage='*'
+pipfile = "*"
 
 [dev-packages]
 ipykernel = "*"
