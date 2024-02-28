@@ -88,7 +88,7 @@ Load the zone lookup data into a temp view in Spark</br>
 Using the zone lookup data and the FHV October 2019 data, what is the name of the LEAST frequent pickup location Zone?</br>
 
 - East Chelsea
-- Jamaica Bay
+- Jamaica Bay <--- this
 - Union Sq
 - Crown Heights North
 
