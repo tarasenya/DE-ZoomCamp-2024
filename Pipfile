@@ -12,6 +12,7 @@ fastparquet = "*"
 google = "*"
 google-cloud-storage='*'
 pipfile = "*"
+kafka-python = "*"
 
 [dev-packages]
 ipykernel = "*"
